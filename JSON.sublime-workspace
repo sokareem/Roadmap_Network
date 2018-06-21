@@ -1,0 +1,416 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"edg",
+				"edgesUrl"
+			],
+			[
+				"URL",
+				"URLConnection"
+			],
+			[
+				"num",
+				"numElements"
+			],
+			[
+				"dt",
+				"dataCapacity"
+			],
+			[
+				"data",
+				"dataCapacity"
+			],
+			[
+				"or",
+				"order_up_suit"
+			],
+			[
+				"SUI",
+				"SUIT_SPADES"
+			],
+			[
+				"RANK_",
+				"RANK_KING"
+			],
+			[
+				"PLa",
+				"Player_factory"
+			],
+			[
+				"RAN",
+				"RANK_KING"
+			],
+			[
+				"jack",
+				"jack_clubs"
+			],
+			[
+				"nine",
+				"nine_clubs"
+			],
+			[
+				"RANK",
+				"RANK_QUEEN"
+			],
+			[
+				"test_le",
+				"test_lead_card_simple"
+			],
+			[
+				"hand",
+				"hand2"
+			],
+			[
+				"SUIT",
+				"SUIT_CLUBS"
+			],
+			[
+				"RA",
+				"RANK_TEN"
+			],
+			[
+				"test_play_card",
+				"test_play_card_simple"
+			],
+			[
+				"test",
+				"test_lead_card_simple"
+			],
+			[
+				"Player",
+				"Player_factory"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"pack",
+				"pack_input"
+			],
+			[
+				"e",
+				"expected"
+			],
+			[
+				"SUi",
+				"Suit_next"
+			],
+			[
+				"exp",
+				"expected"
+			],
+			[
+				"get",
+				"get_suit"
+			],
+			[
+				"ec",
+				"expected3"
+			],
+			[
+				"ac",
+				"actual"
+			],
+			[
+				"expe",
+				"expected"
+			],
+			[
+				"act",
+				"actual"
+			],
+			[
+				"SU",
+				"SUIT_HEARTS"
+			],
+			[
+				"Car",
+				"Card_less"
+			],
+			[
+				"led",
+				"led_card"
+			],
+			[
+				"is",
+				"is_left_bower"
+			],
+			[
+				"ri",
+				"is_right_bower"
+			],
+			[
+				"SUIT_",
+				"SUIT_SPADES"
+			],
+			[
+				"rhs",
+				"rhs_weight"
+			],
+			[
+				"lhs",
+				"lhs_weight"
+			],
+			[
+				"is_",
+				"is_right_bower"
+			],
+			[
+				"Sui",
+				"Suit_next"
+			],
+			[
+				"suit",
+				"Suit_next"
+			],
+			[
+				"EMpl",
+				"Employee"
+			],
+			[
+				"empl",
+				"employ2"
+			],
+			[
+				"Employ",
+				"EmployeeRecord_init"
+			],
+			[
+				"EMploy",
+				"EmployeeRecord"
+			],
+			[
+				"test_per",
+				"test_percentile_range"
+			],
+			[
+				"summary",
+				"summary"
+			],
+			[
+				"summ",
+				"summarize"
+			],
+			[
+				"p",
+				"percentile"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "import java.io.IOException;\nimport java.net.URL;\nimport java.net.URLConnection;\n\nclass Edge{\n\tint edgeID;\n\tint startNodeId;\n\tint endNodeId;\n\tfloat l2Distance;\n}\n\npublic class Main{\n\n\tpublic static void main(String[] args){\n\t\ttry {\n\t\t\tURL edgesUrl = new URL(spec: \"https://gist.githubusercontent.com/BenjaminMalley/9eadf45dbe11ba9c3ac34c45f905cfe8/raw/2c363711b601fa39a5d0071f10158b86217e530f/edges.json\");\n\t\t\tURLConnection conn = edgesUrl.openConnection();\n\t\t\tJsonObject edgesObject = Json.createReader(conn.getInputStream()).readObject();\n\n\t\t} catch (IOException e){\n\n\t\t}\n\t\t\n\t}\n}",
+			"settings":
+			{
+				"buffer_size": 580,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sinmisolakareem/Documents/C++/EECS280/eecs280_project4/Project4/Project4/eecs280_project4/Makefile",
+		"/Users/sinmisolakareem/Documents/C++/EECS280/Project Assistance/List.h",
+		"/Users/sinmisolakareem/Documents/EECS280Projects/Project3/eecs280_project3/Player.cpp",
+		"/Users/sinmisolakareem/Documents/EECS280Projects/Project3/eecs280_project3/Card_tests.cpp",
+		"/Users/sinmisolakareem/Documents/EECS280Projects/Project3/starter-files-2/Card_tests.cpp",
+		"/Users/sinmisolakareem/Documents/EECS280Projects/Project3/starter-files-2/Card.h",
+		"/Users/sinmisolakareem/Documents/EECS280Projects/Project3/starter-files-2/card.cpp",
+		"/Users/sinmisolakareem/Documents/EECS280Projects/eecs_280lab4/debugging_tutorial_files/spellcheck.cpp",
+		"/Users/sinmisolakareem/Documents/EECS280Projects/Project1/starter-files/image_tests.cpp",
+		"/Users/sinmisolakareem/Documents/EECS280Projects/Project1/starter-files/main_test.out"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								580
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "JSON.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
